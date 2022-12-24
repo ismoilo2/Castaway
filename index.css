@@ -8,7 +8,7 @@
 header {
   width: 100%;
   height: 120px;
-  background-color: black;
+  background-color: #191919;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,7 @@ header ul li a:hover {
 .home {
   width: 100%;
   height: 913px;
-  background-color: black;
+  background-color: #191919;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -78,4 +78,121 @@ header ul li a:hover {
   width: 260px;
   height: 35px;
   margin-left: 20px;
+}
+
+.cardpage {
+  width: 100%;
+  height: 2088px;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cardpage .lat {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardpage .lat h1 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 79px;
+  letter-spacing: 2px;
+  color: white;
+  margin-top: -50px;
+}
+.cardpage .lat button {
+  background-color: #118DA8;
+  width: 178px;
+  height: 51px;
+  border-radius: 6px;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+}
+.cardpage .cards {
+  width: 1400px;
+  height: 1709px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardpage .cards .card {
+  width: 100%;
+  height: 545px;
+  background-color: black;
+  border-radius: 32px;
+  display: flex;
+}
+.cardpage .cards .card img {
+  width: 390px;
+  height: 465px;
+  margin: 40px 0px 40px 40px;
+}
+.cardpage .cards .card .cardtext {
+  width: 780px;
+  height: 465px;
+  margin: 41px 40px 40px 63px;
+}
+.cardpage .cards .card .cardtext .b1 {
+  width: 75px;
+  height: 30px;
+  background-color: #191919;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 7px;
+  border-radius: 6px;
+}
+.cardpage .cards .card .cardtext .b2 {
+  background-color: #118DA8;
+  width: 178px;
+  height: 51px;
+  border-radius: 6px;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+  margin-top: 22px;
+}
+.cardpage .cards .card .cardtext .b4 {
+  margin-top: 52px;
+}
+.cardpage .cards .card .cardtext .b3 {
+  width: 140px;
+  height: 30px;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  background-color: #191919;
+  color: white;
+  margin-top: 7px;
+}
+.cardpage .cards .card .cardtext h6 {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #118DA8;
+  margin-top: 40px;
+}
+.cardpage .cards .card .cardtext h1 {
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 1px;
+  color: white;
+  margin-top: 22px;
+}
+.cardpage .cards .card .cardtext p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: white;
+  margin-top: 30px;
 }/*# sourceMappingURL=index.css.map */
