@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 42px;
+  font-weight: 500;
+  color: white;
+  padding: 43.08px 0px 43.3px 50.58px;
+  font-family: sans-serif;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  padding: 46px 70px 46px 0px;
+}
+header ul li {
+  margin-left: 40px;
+  transition: all 2s;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+header ul li a:hover {
+  color: rgb(58, 199, 255);
+}
+
+.home {
+  width: 100%;
+  height: 913px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 130px 0 100px;
+}
+.home .homimg {
+  width: 650px;
+  height: 823px;
+}
+.home div {
+  width: 530px;
+  height: 610.58px;
+  padding: 145px 100px 0px 0px;
+}
+.home div p {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 88px;
+  padding-left: 0px;
+  color: white;
+}
+.home div p strong {
+  font-weight: 800;
+  font-size: 65px;
+}
+.home div h6 {
+  font-size: 15px;
+  color: white;
+  margin: 70px 20px;
+}
+.home div .spoti {
+  width: 260px;
+  height: 35px;
+  margin-left: 20px;
+}/*# sourceMappingURL=index.css.map */
