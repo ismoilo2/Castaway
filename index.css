@@ -5,6 +5,7 @@
   font-family: "Roboto", sans-serif;
 }
 
+/*--------------------Header qismi---------------------*/
 header {
   width: 100%;
   height: 120px;
@@ -40,6 +41,8 @@ header ul li a:hover {
   color: rgb(58, 199, 255);
 }
 
+/*--------------------Header qismi tugashi-------------*/
+/*------------------Home----------------------------------*/
 .home {
   width: 100%;
   height: 913px;
@@ -80,6 +83,8 @@ header ul li a:hover {
   margin-left: 20px;
 }
 
+/*------------------Home tugashi--------------------------*/
+/*------------------------Cardpage---------------------------*/
 .cardpage {
   width: 100%;
   height: 2088px;
@@ -197,6 +202,8 @@ header ul li a:hover {
   margin-top: 30px;
 }
 
+/*------------------------Cardpage tugashi-------------------*/
+/*--------------------About Us----------------------------------*/
 .about {
   width: 1519px;
   height: 1700px;
@@ -312,4 +319,57 @@ header ul li a:hover {
   font-size: 15px;
   font-weight: 600;
   line-height: 28px;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*--------------------About Ud tugashi----------------------------*/
+/*-----------------------Contact Us-----------------------------------*/
+.contact {
+  width: 1519px;
+  height: 910px;
+  background-color: #191919;
+  padding: 100px 100px;
+}
+.contact .con_cardss {
+  width: 1310px;
+  height: 705px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact .con_cardss .con_cards {
+  width: 100%;
+  height: 345px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .con_cardss .con_cards .con_card {
+  width: 424px;
+  height: 343px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 34px;
+}
+.contact .con_cardss .con_cards .con_card .imges {
+  width: 94px;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 0px 0px 52px;
+}
+.contact .con_cardss .con_cards .con_card p {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 44px;
+  color: white;
+  margin: 22px 62px 0px 52px;
+}
+.contact .con_cardss .con_cards .con_card h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.798);
+  margin: 20px 0px 0px 52px;
+}
+
+/*------------------------Contact Us tugashi---------------------------*//*# sourceMappingURL=index.css.map */
