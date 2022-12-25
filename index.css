@@ -372,4 +372,71 @@ header ul li a:hover {
   margin: 20px 0px 0px 52px;
 }
 
-/*------------------------Contact Us tugashi---------------------------*//*# sourceMappingURL=index.css.map */
+/*------------------------Contact Us tugashi---------------------------*/
+/*---------------------------Futer--------------------------------*/
+.futer {
+  width: 1519px;
+  height: 440px;
+  background-color: #191919;
+  padding: 150px 80px 0px 60px;
+}
+.futer .futr {
+  width: 1400px;
+  height: 240px;
+  display: flex;
+}
+.futer .futr .cas {
+  width: 450px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+}
+.futer .futr .cas h1 {
+  font-size: 62px;
+  font-weight: 700;
+  color: white;
+  font-family: sans-serif;
+}
+.futer .futr .cas img {
+  width: 100%;
+  margin-top: 25px;
+}
+.futer .futr .ul {
+  width: 180px;
+  height: 240px;
+  transition: all 2s;
+}
+.futer .futr .ul ul {
+  list-style: none;
+}
+.futer .futr .ul ul li {
+  margin: 0px 0px 20px 0px;
+}
+.futer .futr .ul ul li a {
+  text-decoration: none;
+  color: white;
+}
+.futer .futr .ul ul li a:hover {
+  color: #118DA8;
+}
+.futer .futr img {
+  width: 220px;
+  height: 30px;
+  margin: 10px 0px 0px 20px;
+}
+.futer .futr .url {
+  width: 200px;
+  height: 240px;
+}
+.futer .futr .url ul {
+  list-style: none;
+}
+.futer .futr .url ul li {
+  margin: 0px 0px 15px 0px;
+}
+.futer .futr .url ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*---------------------------Futer tugashi------------------------*//*# sourceMappingURL=index.css.map */
